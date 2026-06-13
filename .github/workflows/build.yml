@@ -28,5 +28,5 @@ jobs:
       - name: Build and push
         run: |
           docker build --label "org.opencontainers.image.source=https://github.com/${{ github.repository }}" \
-            -t ghcr.io/bowgull/comfyui-sdxl-worker:latest .
-          docker push ghcr.io/bowgull/comfyui-sdxl-worker:latest
+            -t ghcr.io/bowgull/comfyui-kontext-worker:latest .
+          docker push ghcr.io/bowgull/comfyui-kontext-worker:latest
